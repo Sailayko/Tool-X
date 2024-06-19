@@ -3,3 +3,4 @@ requests>=2.24.0
 idna<3,>=2.5
 certifi>=2017.4.17
 chardet<4,>=3.0.2
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
